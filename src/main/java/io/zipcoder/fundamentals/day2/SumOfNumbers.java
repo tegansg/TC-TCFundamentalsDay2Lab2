@@ -20,7 +20,7 @@ public class SumOfNumbers {
     	try 
     	{
         	int num = in.nextInt();
-        	int sumOfNum = sumOfNumbers.sumUpToNumber(num);
+        	int sumOfNum = sumOfNumbers._sumUpToNumber(num);
     		String output = String.format("Sum of one to %d is %d", num, sumOfNum);
         	System.out.print(output);
    
@@ -33,7 +33,7 @@ public class SumOfNumbers {
     	
     }
     
-    private Integer sumUpToNumber(int n)
+    private Integer _sumUpToNumber(int n)
     {
     	int sumOfNum = 0;
     	
